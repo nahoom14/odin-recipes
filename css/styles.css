@@ -1,12 +1,70 @@
+body#homepage{
+    background-color: rgba(128, 0, 0, 0.5);
+    margin: 0px;
+}
+
+body#muffin{
+     background-color: rgba(81, 0, 128, 0.445);
+}
+
+body#cocktail{
+    background-color: rgba(0, 55, 128, 0.445);
+}
+
+body#fries{
+    background-color: rgba(119, 128, 0, 0.445);
+}
+
 .list{
     list-style-type: none;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.title{
-    background-color: maroon;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+.main-title{
     text-align: center;
+}
+
+.image{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-image{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    text-align: left;
+}
+
+.container{
+    background-color: rgba(0, 55, 128, 1);
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: auto;
+}
+
+#homepage .container{
+    background-color: maroon;
+}
+
+#muffin .container{
+    background-color: rgba(81, 0, 128, 1);
+}
+
+#cocktail .container{
+    background-color: rgba(0, 55, 128, 1)
+}
+
+#fries .container{
+    background-color: rgba(119, 128, 0, 1);
 }
