@@ -32,6 +32,7 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    background-color: rgba(10, 218, 173, 0.5);
 }
 
 .main-title{
@@ -49,19 +50,15 @@ body{
 .recipe-image{
     width: 500px;
     height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    display: inline;
+    margin: 10px 80px;
 }
 
 .tobias-image{
     width: 300px;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    margin: 10px auto;
 }
 
 .content{
@@ -96,4 +93,13 @@ body{
 #fries .container{
     background-color: rgba(119, 128, 0, 1);
     border-color: goldenrod;
+}
+
+.container.footer{
+    padding: 50px; 
+    margin-left: 10px; 
+    margin-right: 10px;  
+    margin-top: 100px;
+    width: auto;
+    height: auto;
 }
