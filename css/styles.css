@@ -32,7 +32,6 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    background-color: rgba(10, 218, 173, 0.5);
 }
 
 .main-title{
@@ -97,9 +96,64 @@ body{
 
 .container.footer{
     padding: 50px; 
-    margin-left: 10px; 
-    margin-right: 10px;  
-    margin-top: 100px;
+    margin: 100px 10px 0; 
     width: auto;
     height: auto;
+}
+
+/*Navbar*/
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 14px;
+}
+
+.nav li{
+    list-style: none;
+    border: 2px solid;
+    padding: 10px;
+    margin-top: 5px;
+    flex: 0 1 auto;
+}
+
+.nav li a{
+    color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+#homepage .nav li:hover{
+    background-color: rgba(128, 0, 0, 0.8);
+}
+
+#homepage .nav li{
+    background-color:  rgba(128, 0, 0, 1);
+    border-color: wheat;
+}
+
+#muffin .nav li:hover{
+    background-color: rgba(81, 0, 128, 0.8);
+}
+
+#muffin .nav li{
+    background-color: rgba(81, 0, 128, 1);
+    border-color: palevioletred;
+}
+
+#muffin .nav li:hover{
+    background-color: rgba(81, 0, 128, 0.8);
+}
+
+#cocktail .nav li{
+    background-color: rgba(0, 55, 128, 1);
+    border-color: aliceblue;
+}
+
+#cocktail .nav li:hover{
+    background-color: rgba(0, 55, 1280, 0.8);
+}
+
+#fries .nav li{
+    background-color: rgba(119, 128, 0, 1);
+    border-color: goldenrod;
 }
