@@ -96,9 +96,19 @@ body{
 
 .container.footer{
     padding: 50px; 
-    margin: 100px 10px 0; 
+    margin: 0; 
+    border: 5px solid;
     width: auto;
     height: auto;
+}
+
+.container.main-title{
+    border: 5px solid;
+    margin: 0;
+}
+
+.footer{
+    text-align: center;
 }
 
 /*Navbar*/
@@ -111,7 +121,7 @@ body{
 .nav li{
     list-style: none;
     border: 2px solid;
-    padding: 10px;
+    padding: 5px;
     margin-top: 5px;
     flex: 0 1 auto;
 }
@@ -122,17 +132,13 @@ body{
     text-decoration: none;
 }
 
-#homepage .nav li:hover{
-    background-color: rgba(128, 0, 0, 0.8);
-}
-
 #homepage .nav li{
     background-color:  rgba(128, 0, 0, 1);
     border-color: wheat;
 }
 
-#muffin .nav li:hover{
-    background-color: rgba(81, 0, 128, 0.8);
+#homepage .nav li:hover{
+    background-color: rgba(128, 0, 0, 0.8);
 }
 
 #muffin .nav li{
@@ -155,5 +161,10 @@ body{
 
 #fries .nav li{
     background-color: rgba(119, 128, 0, 1);
+    border-color: goldenrod;
+}
+
+#fries .nav li:hover{
+    background-color: rgba(119, 128, 0, 0.8);
     border-color: goldenrod;
 }
